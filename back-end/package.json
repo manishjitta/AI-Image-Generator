@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "preinstall": "del /F /Q node_modules && del /F /Q package-lock.json",
     "start": "node index.js"
   },
   "author": "",
