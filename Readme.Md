@@ -10,13 +10,16 @@ This is a **Full Stack AI SaaS Application** built using the **MERN stack**. It 
 - **MongoDB Database** to store user and transaction details.
 - **Fully Responsive UI** with TailwindCSS.
 
+## Live Demo
+[Click here to visit the live site](https://imagify-ai-app.netlify.app/)
+
 ---
 
 ## 📂 Project Structure
 ```sh
 /project-root 
-    │── frontend/  # React.js & Tailwind CSS Frontend 
-    │── backend/   # Node.js & Express Backend  
+    │── front-end/  # React.js & Tailwind CSS Frontend 
+    │── back-end/   # Node.js & Express Backend  
     │── README.md  # Project Documentation
 ```
 
@@ -26,8 +29,8 @@ This is a **Full Stack AI SaaS Application** built using the **MERN stack**. It 
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/manishjitta/AI-Image_Generator.git
-cd AI-Image_Generator
+git clone https://github.com/manishjitta/AI-Image-Generator.git
+cd AI-Image-Generator
 ```
 
 ### 2️⃣ Install Dependencies
@@ -51,9 +54,7 @@ npm install
 ## ⚙️ Configuration
 
 ### Backend Configuration:
-1. Rename the `.env.example` file in the backend directory to `.env`.
-2. Add your **MongoDB Atlas connection string**, **Clipdrop API key**, and **Stripe Secret Key** in the `.env` file.
-
+Create a .env file inside the back-end directory and add the following:
 **Example `.env` file for backend:**
 ```sh
 MONGO_URI=<your_mongo_db_connection_string>
@@ -63,8 +64,7 @@ JWT_SECRET=<your_jwt_secret_key>
 ```
 
 ### Frontend Configuration:
-1. Rename the `.env.example` file in the frontend directory to `.env`.
-2. Set the **API URL** of your backend server.
+Create a .env file inside the front-end directory and add the following:
 
 **Example `.env` file for frontend:**
 ```sh
