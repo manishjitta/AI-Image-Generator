@@ -1,6 +1,6 @@
 const userModel = require('../models/UserData')
 const transactionModel = require('../models/TransactionData')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken')
 const razorpay = require('razorpay')
 require('dotenv').config();
